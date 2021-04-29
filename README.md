@@ -1,19 +1,18 @@
-# Bootstrap 4 Start Template
-Kick Start your Bootstrap 4 Project with this lightweight template, it only loads the require bootstrap files plus a stylesheet and a javascript file for your custom code.
+# Web LilisShoes
+inicio de proyecto local el 18 de abril del 2021 y subido solo front-end el 28 del mismo mes
 
-## Instructions
+## Propositos
 
-- Download this project
-- Decompress
-- Change directory name
-- Build Something great
+- Ampliar la precencia digital de la empresa
+- Ventas menudeo
+- CRM clientes asociados
 
-# Template Bootstrap 4
-Inicia tu proyecto con este template ligero, solo viene con los archivos necesarios, así como una hoja de estilos y una archivo javascript para tu código.
+# RedesSociales
+https://www.facebook.com/LiliGuzmanE
 
-## Instrucciones
 
-- Descarga este proyecto
-- Descomprime
-- Cambia el nombre del proyecto
-- Crea algo increible!
+## Desarrollo
+
+- Carlos Guzman Encarnacion
+- Desarrollador Web JR
+- https://www.facebook.com/carlos.guzmanencarnacion/
