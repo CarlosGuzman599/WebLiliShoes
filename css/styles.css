@@ -1,0 +1,319 @@
+/*** Add your styles here **/
+
+:root{
+    --colorPrimario: #FFC5C7;
+    --colorSecundario: #E60072;
+    --colorTerciario: #9E005D;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.fm-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fm-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.fm-pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.color-primary{
+    color: var(--colorPrimario)!important;
+}
+
+.color-secondary{
+    color: var(--colorSecundario)!important;
+}
+
+.color-tertiary{
+    color: var(--colorTerciario)!important;
+}
+
+.color-white{
+    color: white!important;
+}
+
+.color-dark{
+    color: black!important;
+}
+
+.btn-personal{
+    margin: .2em;
+    color:#fff;
+    background-color: var(--colorSecundario);
+    border-color: var(--colorSecundario);
+}
+
+.btn-outline-personal{
+    margin: .2em;
+    color: var(--colorSecundario);
+    background-color: transparent;
+    border-color: var(--colorSecundario);
+}
+
+.btn-outline-personal:hover{
+    color: var(--colorSecundario);
+    font-weight: bold;
+}
+
+.btn-personal:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.rotar-incremento{
+    -webkit-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.rotar-incremento:hover{
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+}
+
+.shadow{
+    -webkit-box-shadow: -15px 15px 18px -15px rgba(0,0,0,0.57);
+    -moz-box-shadow: -15px 15px 18px -15px rgba(0,0,0,0.57);
+    box-shadow: -15px 15px 18px -15px rgba(0,0,0,0.57);
+}
+
+/*BARRA FIJA*/
+.put-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+/** Sociales **/
+.sociales ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: var(--colorSecundario);
+}
+
+.sociales ul li a[href*="facebook.com"]::before{
+    content: '\f082';
+}
+
+.sociales ul li a[href*="twitter.com"]::before{
+    content: '\f081';
+}
+
+.sociales ul li a[href*="instagram.com"]::before{
+    content: '\f16d';
+}
+
+.sociales ul li a[href*="pinterest.com"]::before{
+    content: '\f0d2';
+}
+
+.sociales ul li a[href*="youtube.com"]::before{
+    content: '\f16a';
+}
+
+.sociales ul li a[href*="wa.me"]::before{
+    content: '\f232';
+}
+
+.sociales ul li a[href*="login"]::before{
+    content: '\f090';
+}
+
+/** NAVEGACION  **/
+.navegacion{
+    background-color: var(--colorPrimario);
+}
+
+.navegacion li > a{
+    color: black;
+    margin: .5em auto;
+}
+
+.img-barra-principal{
+    height: 2em;
+}
+
+/** CAROUSEL **/
+
+.carousel-caption p.titulo{
+    font-weight: 900;
+    color: var(--colorTerciario);
+}
+
+/** myWeb **/
+.myWeb p.fm-raleway{
+    font-size: 1.8em;
+}
+
+/** TARJETILLAS **/
+
+.imagen-tarejetilla img{
+    border: 6px solid white;
+    -webkit-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.imagen-tarejetilla img:hover{
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+}
+
+.imagen-tarejetilla p{
+    font-size: 2em;
+}
+
+.servicio-info{
+    background-color: white;
+    margin-top: -5rem;
+}
+
+/** MARCAS **/
+
+.marcas p{
+    font-size: 2em;
+}
+
+.marcas h3{
+    font-size: 2em;
+}
+
+/** IMAGENES **/
+
+.imagenes-marcas img{
+    -webkit-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.imagenes-marcas img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/** Footer **/
+
+.flooter-sitio{
+    background-color: var(--colorPrimario);
+    background-color: cover;
+}
+
+
+/* FORMULARIO */
+
+.header {
+    color: var(--colorSecundario);
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: var(--colorSecundario);
+}
+
+/** FORMULARIO **/
+
+.l-formulario{
+    font-size: 1.3em;
+}
+
+/* Servicios */
+
+.collapse-servicios button.btn-link{
+    text-decoration: none;
+    color: var(--colorSecundario);
+}
+
+.collapse-servicios button.btn-link:hover{
+    text-decoration: none;
+    color: var(--colorSecundario);
+}
+
+.aside-servicios{
+    background-color: var(--colorPrimario);
+}
+
+/*  Galeria */
+
+.galeria img{
+    border: solid 10px white;
+}
+
+/* producto */
+
+.barra-productos input{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+
+.precio-producto{
+    font-size: 1.5em;
+}
+
+.btn-add-cart{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    color: var(--colorSecundario);
+    text-align: center;
+    border: none;
+    font-size: 2em;
+}
+
+.btn-add-cart:hover,
+.dec-search:hover{
+    cursor: pointer;
+}
+
+.barra-productos{
+    background-color: var(--colorSecundario);
+    margin-top: 1em;
+}
+
+.dec-search{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 2em;
+}
